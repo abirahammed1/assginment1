@@ -1,0 +1,163 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Work Sans", sans-serif;
+}
+/* headern sectio */
+.header-container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/banner/banner3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  text-align: right;
+}
+.header-title {
+  text-align: right;
+  font-size: 65px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  width: 50%;
+}
+.header-sub-title {
+  text-align: right;
+  margin-bottom: 30px;
+  width: 50%;
+}
+.button {
+  padding: 18px 20px;
+  background-color: white;
+  font-weight: 600;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  margin-right: 650px;
+}
+/* about me section  */
+.about-me {
+  display: flex;
+  align-items: center;
+  padding: 150px 200px;
+  gap: 90px;
+}
+.about-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 20px;
+  width: 50%;
+}
+.about-sub-title {
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+  margin-bottom: 18px;
+  width: 50%;
+}
+ul li {
+  list-style-type: right;
+  margin-left: 20px;
+}
+/* my plane section  */
+.plans-item {
+  display: flex;
+  justify-content: space-evenly;
+}
+.plans {
+  text-align: center;
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 70px;
+}
+.plan-title {
+  font-size: 30px;
+  color: #151414;
+  padding-bottom: 15px;
+  padding-top: 25px;
+  justify-content: center;
+}
+.plan-sub-title {
+  font-size: 25px;
+  font-weight: 500;
+  color: #737272;
+  margin-bottom: 120px;
+}
+/* them bar section  */
+.them-bar {
+  width: 70%;
+  height: 300px;
+  margin: auto;
+  background-image: url("../images/gradient1.png"), url("../images/watch.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 10px;
+}
+.them-title {
+  margin-left: 60px;
+  padding-bottom: 30px;
+  font-size: 40px;
+  color: #ffffff;
+  width: 40%;
+  padding-top: 55px;
+}
+.them-btn {
+  margin-left: 60px;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+/* footer section  */
+.about-container {
+  display: flex;
+  background-color: #151414;
+  color: white;
+  align-items: center;
+  width: 100%;
+  margin-top: 120px;
+  justify-content: center;
+}
+.about-future {
+  margin-top: 120px;
+  font-size: 45px;
+  padding-bottom: 15px;
+}
+.about-descripton {
+  font-weight: 400;
+  font-size: 16px;
+  padding-bottom: 20px;
+  width: 50%;
+}
+.social-image {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.info {
+  display: block;
+}
+.info-suscribe {
+  font-weight: 600;
+  font-size: 25px;
+}
+.info-email {
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.info-btn {
+  color: #f15b22;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px 30px;
+  border-radius: 10px;
+}
